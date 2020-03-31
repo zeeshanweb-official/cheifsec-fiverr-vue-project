@@ -1,0 +1,23 @@
+{
+  "name": "Beveilig.nu",
+  "version": "1.0.0",
+  "description": "Online community voor de Particuliere Beveiligingssector",
+  "author": "Operate Security B.V",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "nuxt": "^2.0.0",
+    "nuxt-svg": "^0.1.6",
+    "vue-form-wizard": "^0.8.4",
+    "vuetify": "^2.1.2",
+    "vuex-persist": "^2.1.0"
+  },
+  "devDependencies": {}
+}

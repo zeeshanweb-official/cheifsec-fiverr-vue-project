@@ -1,0 +1,21 @@
+  uploadVuex(state, payload) {
+    let pics = state.user.uploads.length?state.user.uploads:[]
+      function containsObject(obj, list) {
+        var i;
+        for (i = 0; i < list.length; i++) {
+            if (list[i].id === obj.id && list[i].type ===  obj.type && list[i].url === obj.url) {
+                return true;
+            }
+        }
+    
+        return false;
+    }
+    let result = containsObject(payload,state.user.uploads)
+    if(result){
+          console.log('data already existed')
+    }
+    else{
+          pics.push({id: payload.id, url: payload.url, type: payload.type});
+          state.user.uploads = pics 
+    }
+  }

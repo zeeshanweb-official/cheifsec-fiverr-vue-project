@@ -16,7 +16,7 @@
     "nuxt": "^2.0.0",
     "nuxt-svg": "^0.1.6",
     "vue-form-wizard": "^0.8.4",
-    "vuetify": "^2.1.2",
+    "vuetify": "^2.6.10",
     "vuex-persist": "^2.1.0"
   },
   "devDependencies": {}
